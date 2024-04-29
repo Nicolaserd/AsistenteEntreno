@@ -1,0 +1,72 @@
+.container_h1_logo{
+    margin: 50px auto auto ;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.personastitulo{
+
+    font-family: Arial;
+    font-size: 50px;
+    color: #f9ef23;
+    font-weight: 1000;
+}
+
+.titulonohaypersonas{
+    margin-top: 50px;
+    margin-left: 50vw;
+    font-family: Arial;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.container__card{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    margin-top: 5px;
+    
+}
+
+@media (min-width: 940px) {
+    .container__card{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 1.25rem;
+    margin: 5px;
+    margin-top: 5px;
+
+    
+   }
+   .personastitulo{
+
+    font-family: Arial;
+    font-size: 70px;
+    color: #f9ef23;
+    font-weight: 1000;
+  }
+  .SeccionPeople{
+
+    display: flex;
+    margin: 25vh auto auto ;
+    box-sizing: border-box;
+    height: fit-content;
+    align-items: start;
+    justify-content: right;
+
+  }
+  .personastitulo{
+
+    font-family: Arial;
+    box-sizing: border-box;
+    margin: 5vw;
+    font-size: 70px;
+    color: #f9ef23;
+    font-weight: 1000;
+}
+
+}
