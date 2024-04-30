@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 8vh;
     margin-left: 10lvw;
+    gap: 20px;
     align-items: center;
     width: fit-content;
     justify-content: center;
@@ -31,4 +32,44 @@
 }
 .container__Actividad{
     gap: 10px;
+}
+
+@media (min-width: 1400px) {
+    .containerLogoActividad{
+        display: flex;
+        margin: auto;
+        margin-top: 8vh;
+        align-items: center;
+        width: fit-content;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .logoActividades{
+        width: 4rem;
+        height: 4rem;
+    }
+    .tituloasistenteActividades{
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    .tituloSemana{
+        display: flex;
+        margin-top: 60px;
+        margin: auto;
+        align-items: center;
+        width: fit-content;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .tituloSemanainner{
+        color: #f9ef23;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    .container__Actividad {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
 }

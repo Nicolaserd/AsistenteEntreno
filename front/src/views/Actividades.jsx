@@ -1,5 +1,5 @@
 
-import logo from "../assets/corriendo.png"
+import bot from "../assets/bot.png"
 import "./Actividades.css"
 import { Actividad } from "../components/Actividad.jsx";
 import Navbar from "../components/Navbar.jsx";
@@ -50,7 +50,7 @@ return (
       <Navbar/>
 
         <div className="containerLogoActividad">
-            <img src={logo} alt="image-description" className="logoActividades" />
+            <img src={bot} alt="image-description" className="logoActividades" />
             <h3 className="tituloasistenteActividades">ASISTENTE</h3>
         </div>
 

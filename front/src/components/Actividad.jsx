@@ -2,7 +2,11 @@
 import "./Actividad.css"
 
 export  const Actividad = ({actividad:{ title, description, realizado }})=>{
+    const handleClick = ()=>{
 
+        onCancelar(title);
+        
+      };
 return (
     <div className="ActividadContainer">
 
@@ -14,15 +18,15 @@ return (
 
         <div className="containerdos">
 
-            <div>
+            <p className="descripcionActividad">
             {description}
-            </div>
+            </p>
         </div>
  
         <div className="containertres">
-            <div>
-            {realizado?<h3>Realizado</h3>:<h3>Pendiente</h3>}
-            </div>
+            <a onClick={handleClick} className="butonactividad">
+            {realizado?<h3 className="RealizadoActividad">Realizado</h3>:<h3 className="RealizadoPendiente">Pendiente</h3>}
+            </a>
         </div>
         
 

@@ -2,28 +2,103 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    border-radius: 4px;
     height: 200px;
-    margin: 15px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 15px;
 }
 .containeruno{
     width: 100%;
     height: 60%;
     box-sizing: border-box;
     background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .containerdos{
     width: 100%;
     height: 20%;
     box-sizing: border-box;
+    display: flex;
     background-color: #f9ef23;
+    justify-content: start;
 }
 .containertres{
     width: 100%;
     height: 20%;
     box-sizing: border-box;
+    display: flex;
     background-color: #f9ef23;
+    justify-content: center;
+    align-items: center;
 }
+
+.tituloActividad{
+ 
+    font-family: Arial;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.5em;
+    
+}
+
+.descripcionActividad{
+     
+    font-family: Arial;
+    font-size: 0.8em;
+}
+.RealizadoActividad{
+    color:rgb(4, 71, 4);
+}
+.RealizadoPendiente{
+    color: red;
+}
+.butonactividad{
+    cursor: pointer;
+    
+}
+
 /* Media query para pantallas más grandes que la de un celular */
 @media (min-width: 768px) {
-
+    .ActividadContainer{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        border-radius: 4px;
+        height: 100px;
+        max-width: 700px;
+        margin: auto;
+        margin-top: 15px;
+        
+    }
+    .containeruno{
+        width: 60%;
+        height: 100%;
+        box-sizing: border-box;
+        background-color: #ffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .containerdos{
+        width: 20%;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        background-color: #f9ef23;
+        justify-content: start;
+    }
+    .containertres{
+        width: 20%;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        background-color: #f9ef23;
+        justify-content: center;
+        align-items: center;
+    }
 }
