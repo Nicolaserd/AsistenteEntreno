@@ -1,0 +1,29 @@
+.ActividadContainer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px;
+}
+.containeruno{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+.containerdos{
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    background-color: #f9ef23;
+}
+.containertres{
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    background-color: #f9ef23;
+}
+/* Media query para pantallas más grandes que la de un celular */
+@media (min-width: 768px) {
+
+}

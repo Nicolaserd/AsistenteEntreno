@@ -1,0 +1,34 @@
+.containerLogoActividad{
+    display: flex;
+    margin-top: 8vh;
+    margin-left: 10lvw;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.logoActividades{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.tituloasistenteActividades{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.tituloSemana{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10lvw;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.tituloSemanainner{
+    color: #f9ef23;
+    font-weight: 700;
+}
+.container__Actividad{
+    gap: 10px;
+}
